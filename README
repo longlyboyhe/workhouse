@@ -1,4 +1,4 @@
-﻿##android快速开发框架
+##android快速开发框架
  - 开发框架是根据目前流行的一些开源框架搭建而成的，主要包括如下内容：
  - 1、整体框架：Retrofit+Okhttp+okio+GSON+RXAndroid+Lambda
  -  网络api请求使用Retrofit管理，网络请求交给Okhttp去执行，在底层使用okio减少了系统消耗。
@@ -48,7 +48,7 @@
 	/*
 	 * 分页时添加数据
 	 * 
-    */	
+        */	
 	public void addData(List<T> mDatas) {
 		this.mDatas.addAll(mDatas);
 		notifyDataSetChanged();
@@ -57,7 +57,7 @@
 	/*
 	 * 设置或者更新添加数据
 	 * 
-    */	
+        */	
 	public void setData(List<T> mDatas) {
 		this.mDatas = mDatas;
 		notifyDataSetChanged();
