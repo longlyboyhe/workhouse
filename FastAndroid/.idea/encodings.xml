@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/business/LoginRequestCallBack.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/data/cache/ACache.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/data/cache/CacheConsts.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/data/spreference/SharedPreferencesTag.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/utils/DateUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/utils/GuideUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/utils/JudgeNetWorker.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/utils/Log.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/utils/UIUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/widget/AutoGallery.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/widget/FlowIndicator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/android/com/fastandroid/widget/PullToRefreshListView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/hui.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_loading.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_loading_refresh.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_refresh_down.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/lan.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/pull_listview_layout.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/pull_to_refresh_header.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/hui.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_loading.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_loading_refresh.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_refresh_down.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/lan.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
