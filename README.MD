@@ -1,16 +1,16 @@
 ##android快速开发框架
 ********************************************************************************************************************
- ###开发框架是根据目前流行的一些开源框架搭建而成的，主要包括如下内容：
- ####1、整体框架：Retrofit+Okhttp+okio+GSON+RXAndroid+Lambda
- -  网络api请求使用Retrofit管理，网络请求交给Okhttp去执行，在底层使用okio减少了系统消耗。
- -使用实例（RXAndroid+Lambda还没有集成实例）：。
- - /**
- - * 项目名称：FastAndroid
- - * 包名：android.com.fastandroid.network
- - * 当前类作用：统一管理网络请求
- - * 作者：longlyboyhe on 2015/11/10 16:02
- - * 邮箱：longlyboyhe@126.com
- - */
+###开发框架是根据目前流行的一些开源框架搭建而成的，主要包括如下内容：
+####1、整体框架：Retrofit+Okhttp+okio+GSON+RXAndroid+Lambda
+  网络api请求使用Retrofit管理，网络请求交给Okhttp去执行，在底层使用okio减少了系统消耗。
+  使用实例（RXAndroid+Lambda还没有集成实例）：。
+/**
+* 项目名称：FastAndroid
+* 包名：android.com.fastandroid.network
+* 当前类作用：统一管理网络请求
+* 作者：longlyboyhe on 2015/11/10 16:02
+* 邮箱：longlyboyhe@126.com
+*/
    
    public class RetrofitHelp {
     public static final String BASE_URL = "http://api.myservice.com";
@@ -31,10 +31,10 @@
       }
     }
     
- ####2、数据库管理GreenDAO（暂未集成）
- ####3、权限管理（6.0中对权限的适配）
- -    PermissionUtil.java负责对用户权限访问管理。
- ####4、自定义公共的Adapter，只需要传入布局文件id和需要展示的数据
+####2、数据库管理GreenDAO（暂未集成）
+####3、权限管理（6.0中对权限的适配）
+    PermissionUtil.java负责对用户权限访问管理。
+####4、自定义公共的Adapter，只需要传入布局文件id和需要展示的数据
  
    public abstract class CommonAdapter<T> extends BaseAdapter {
 	protected LayoutInflater mInflater;
@@ -98,13 +98,13 @@
 
   }
   
- ####5、MVP登录实例
- ####6、数据缓存
- ####7、SharedPreferencesHelper工具
- ####8、崩溃日志收集
- ####9、埋点工具类
- ####10、下拉刷新，上拉加载更多组件
- ####11、其它一些常用工具类和基类
+####5、MVP登录实例
+####6、数据缓存
+####7、SharedPreferencesHelper工具
+####8、崩溃日志收集
+####9、埋点工具类
+####10、下拉刷新，上拉加载更多组件
+####11、其它一些常用工具类和基类
  
 ## Android 开发中的日常积累
 ### Android 性能优化
