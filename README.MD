@@ -5,12 +5,13 @@
   网络api请求使用Retrofit管理，网络请求交给Okhttp去执行，在底层使用okio减少了系统消耗。
   使用实例（RXAndroid+Lambda还没有集成实例）：
 
-/**
-*项目名称：FastAndroid
-*包名：android.com.fastandroid.network
-*当前类作用：统一管理网络请求
-*作者：longlyboyhe on 2015/11/10 16:02
-*邮箱：longlyboyhe@126.com*/
+/** JHava
+项目名称：FastAndroid
+包名：android.com.fastandroid.network
+当前类作用：统一管理网络请求
+作者：longlyboyhe on 2015/11/10 16:02
+邮箱：longlyboyhe@126.com
+**/
    public class RetrofitHelp {
    public static final String BASE_URL = "http://api.myservice.com";<br/>
    public static RESTApi getApi() {
