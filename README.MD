@@ -7,15 +7,13 @@
 
 /**
 *项目名称：FastAndroid
-* 包名：android.com.fastandroid.network
-* 当前类作用：统一管理网络请求
-* 作者：longlyboyhe on 2015/11/10 16:02
-* 邮箱：longlyboyhe@126.com
-*/
+*包名：android.com.fastandroid.network
+*当前类作用：统一管理网络请求
+*作者：longlyboyhe on 2015/11/10 16:02
+*邮箱：longlyboyhe@126.com*/
    public class RetrofitHelp {
-    public static final String BASE_URL = "http://api.myservice.com";
-    private static RESTApi api;
-    public static RESTApi getApi() {
+   public static final String BASE_URL = "http://api.myservice.com";<br/>
+   public static RESTApi getApi() {
         if (api == null) {
             OkHttpClient client = new OkHttpClient();
             client.setReadTimeout(12, TimeUnit.SECONDS);
