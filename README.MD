@@ -3,15 +3,15 @@
 ###开发框架是根据目前流行的一些开源框架搭建而成的，主要包括如下内容：
 ####1、整体框架：Retrofit+Okhttp+okio+GSON+RXAndroid+Lambda
   网络api请求使用Retrofit管理，网络请求交给Okhttp去执行，在底层使用okio减少了系统消耗。
-  使用实例（RXAndroid+Lambda还没有集成实例）：。
+  使用实例（RXAndroid+Lambda还没有集成实例）：
+
 /**
-* 项目名称：FastAndroid
+*项目名称：FastAndroid
 * 包名：android.com.fastandroid.network
 * 当前类作用：统一管理网络请求
 * 作者：longlyboyhe on 2015/11/10 16:02
 * 邮箱：longlyboyhe@126.com
 */
-   
    public class RetrofitHelp {
     public static final String BASE_URL = "http://api.myservice.com";
     private static RESTApi api;
@@ -26,10 +26,9 @@
 
             api = retrofit.create(RESTApi.class);
         }
-
-        return api;
-      }
-    }
+    return api;
+   }
+}
     
 ####2、数据库管理GreenDAO（暂未集成）
 ####3、权限管理（6.0中对权限的适配）
