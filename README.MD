@@ -91,8 +91,7 @@
 	private ViewHolder getViewHolder(int position, View convertView, ViewGroup parent) {
 		return ViewHolder.get(mContext, convertView, parent, mItemLayoutId, position);
 	}
-
-  }
+    }
   
 #### 5、MVP登录实例
 #### 6、数据缓存
