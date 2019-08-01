@@ -32,7 +32,7 @@
 #### 3、权限管理（6.0中对权限的适配）
     PermissionUtil.java负责对用户权限访问管理。
 #### 4、自定义公共的Adapter，只需要传入布局文件id和需要展示的数据
-        public abstract class CommonAdapter<T> extends BaseAdapter {
+    public abstract class CommonAdapter<T> extends BaseAdapter {
 	protected LayoutInflater mInflater;
 	protected Context mContext;
 	protected List<T> mDatas = new ArrayList<T>();
